@@ -1,0 +1,13 @@
+{
+        "name" : "New Animes",
+        "version" : "0.0.1",
+        "description" : "generate list of new animes",
+        "manifest_version" : 2,
+        "icons":{
+            "128":"logo.png"
+        },
+        "browser_action":{
+            "default_popup":"index.html"
+        }
+
+}
