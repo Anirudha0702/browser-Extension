@@ -11,7 +11,9 @@ fetch(url)
             <div class="anime_img_wrapper">
                 <img src=${anime.images?.jpg?.image_url} alt="anime Image">
             </div>
+        <div class="anime_info">
             <span class="anime_title">${anime.title}</span>
+        </div>
         </div>`;
     });
 })
